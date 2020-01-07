@@ -4,4 +4,5 @@ jobs:
   include:
     - stage: Test
       script: 
+        - cd kechfractal
         - mvn clean test
