@@ -1,0 +1,7 @@
+language: java
+
+jobs:
+  include:
+    - stage: Test
+      script: 
+        - mvn clean test
